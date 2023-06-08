@@ -4,11 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // seccion 1
+            //Console.WriteLine("Hello, World!");
 
-            Variables.IntroVariables();
+            // seccion 2
+            //Variables.IntroVariables();
+            //Variables.VariablesTexto();
+            //Variables.Convenciones();
+            //Variables.CambioColor();
+            Variables.Conversiones();
+
+
 
         }
     }
 }
- 
