@@ -78,5 +78,52 @@ namespace HelloWorld
 
             Console.WriteLine(myStringToInt + myOtherStringToInt);
         }
+
+        public static void FormateoString()
+        {
+            string? videojuego;
+
+            Console.Write("Tu videojuego favorito: ");
+            videojuego = Console.ReadLine();
+
+            Console.WriteLine(videojuego?.ToUpper());
+            Console.WriteLine(videojuego?.ToLower());
+            Console.WriteLine(videojuego?.Trim());
+
+            int substring;
+            Console.Write("Ingresa un nunmero para sacar el substring");
+
+            substring = Int32.Parse(Console.ReadLine());
+            Console.WriteLine(videojuego?.Substring(substring));
+        }
+
+        public static void FindLetra()
+        {
+            string? palabra;
+            char letra;
+
+            Console.Write("Inrgesa una palabra: ");
+            palabra = Console.ReadLine();
+
+            Console.Write("Inrgesa una letra a encontrar: ");
+            letra = Convert.ToChar(Console.ReadLine());
+
+            bool letraEnPalabra = palabra.Contains(letra);
+
+            Console.WriteLine($"La letra esta en la palabra? {letraEnPalabra}");
+            Console.WriteLine($"Indice desde la primer letra: {palabra.IndexOf(letra)}");
+            Console.WriteLine(palabra.Substring(palabra.IndexOf(letra)));
+        }
+
+        public static void Constantes()
+        {
+            const string nombre = "Francisco";
+            const double PI = 3.141592;
+            const int meses = 12, dias = 365;
+
+            Console.WriteLine(nombre);
+            Console.WriteLine(PI);
+            Console.WriteLine($"Meses: {meses}, Dias: {dias}");
+        }
     }
 }

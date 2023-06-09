@@ -12,10 +12,10 @@
             //Variables.VariablesTexto();
             //Variables.Convenciones();
             //Variables.CambioColor();
-            Variables.Conversiones();
-
-
-
+            //Variables.Conversiones();
+            //Variables.FormateoString();
+            //Variables.FindLetra();
+            Variables.Constantes();
         }
     }
 }
