@@ -124,6 +124,9 @@ namespace HelloWorld
             Console.WriteLine(nombre);
             Console.WriteLine(PI);
             Console.WriteLine($"Meses: {meses}, Dias: {dias}");
+
+            string numero = "3.4f";
+            Console.WriteLine(Convert.ToDecimal(numero));
         }
     }
 }
