@@ -54,5 +54,34 @@ namespace HelloWorld
         {
             return $"Que onda manix {manix}, saca las kawasakis!";
         }
+
+        public int IngresoUsuario()
+        {
+            Console.Write("Ingresa un numero prro hdspm: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ingresa otro prro hdspm: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            return num1 + num2;
+        }
+
+        public void ManejoErrores()
+        {
+            Console.Write("Ingresa un number master: ");
+            string valor = Console.ReadLine();
+
+            try
+            {
+                int valorInt = int.Parse(valor);
+                Console.WriteLine(valorInt);
+            } catch (Exception ex)
+            {
+                Console.WriteLine($"Hubo un error wey: {ex.Message}");
+            } finally
+            {
+                Console.WriteLine("El programa ha finalizado!");
+            }
+        }
     }
 }
