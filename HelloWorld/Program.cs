@@ -28,7 +28,8 @@
             //Console.WriteLine(metodos.SaludarAmigos("Miguelito"));
             //Console.WriteLine(metodos.SaludarAmigos("Juanito"));
             //Console.WriteLine(metodos.IngresoUsuario());
-            metodos.ManejoErrores();
+            //metodos.ManejoErrores();
+            metodos.Operadores();
         }
     }
 }

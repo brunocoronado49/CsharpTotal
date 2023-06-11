@@ -83,5 +83,36 @@ namespace HelloWorld
                 Console.WriteLine("El programa ha finalizado!");
             }
         }
+
+        public void Operadores()
+        {
+            int num1 = 5, num2 = 3, num3;
+            num3 = -num1;
+            Console.WriteLine($"El valor negativo es: {num3}");
+            Console.WriteLine(num2);
+            Console.WriteLine(++num2);
+            Console.WriteLine(num2++);
+            Console.WriteLine(num2);
+
+            Console.WriteLine(--num2);
+            Console.WriteLine(num2--);
+            Console.WriteLine(num2);
+
+            bool isDay = true;
+            Console.WriteLine($"Es de dia? {!isDay}");
+
+            bool isMayor, isMenor, isIgual, isDiferente;
+            isMayor = num1 > num2;
+            isMenor = num1 < num2;
+            isDiferente = num1 != num2;
+            isIgual = num1 == num2;
+            Console.WriteLine($"Es mayor: {isMayor}");
+            Console.WriteLine($"Es menor: {isMenor}");
+            Console.WriteLine($"Es diferente: {isDiferente}");
+            Console.WriteLine($"Es igual: {isIgual}");
+
+            Console.WriteLine($"Simbolo de || - O: {isMayor || isMenor}");
+            Console.WriteLine($"Simbolo de && - Y: {isMayor && isMenor}");
+        }
     }
 }
