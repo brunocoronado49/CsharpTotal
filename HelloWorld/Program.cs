@@ -18,7 +18,7 @@
             //Variables.Constantes();
 
             // seccion 3
-            Metodos metodos = new Metodos();
+            //Metodos metodos = new Metodos();
             //metodos.MetodoVoid();
             //Console.WriteLine(metodos.SaludarPersona("Bruce"));
             //Console.WriteLine(metodos.SaludarPersona("Lupita"));
@@ -29,7 +29,15 @@
             //Console.WriteLine(metodos.SaludarAmigos("Juanito"));
             //Console.WriteLine(metodos.IngresoUsuario());
             //metodos.ManejoErrores();
-            metodos.Operadores();
+            //metodos.Operadores();
+
+            // seccion 4
+            Condiciones condiciones = new Condiciones();
+            //condiciones.Desiciones();
+            //condiciones.IfAnidados();
+            condiciones.DesafioLogin();
+
+
         }
     }
 }
