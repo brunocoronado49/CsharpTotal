@@ -32,10 +32,20 @@
             //metodos.Operadores();
 
             // seccion 4
-            Condiciones condiciones = new Condiciones();
+            //Condiciones condiciones = new Condiciones();
             //condiciones.Desiciones();
             //condiciones.IfAnidados();
-            condiciones.DesafioLogin();
+            //condiciones.DesafioLogin();
+            //condiciones.MetodoSwitch();
+            //condiciones.CondicionTernaria();
+
+            // seccion 5
+            Bucles bucles = new Bucles();
+            //bucles.BucleFor();
+            //bucles.BucleDoWhile();
+            //bucles.BucleWhile();
+            //bucles.BreakContinue();
+            bucles.DesafioBucles();
 
 
         }

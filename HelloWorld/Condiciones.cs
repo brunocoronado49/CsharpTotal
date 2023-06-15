@@ -97,8 +97,47 @@ namespace HelloWorld
                 Console.WriteLine($"Bienvenido :D login: {logged}");
             } else
             {
-                Console.WriteLine("Lo siento, tus credenciales son malas.");
+                Console.WriteLine("Error, tus credenciales son erroneas.");
             }
+        }
+
+        public void MetodoSwitch()
+        {
+           try
+            {
+                Console.Write("Ingresa un numero: ");
+                byte? numero = Convert.ToByte(Console.ReadLine());
+
+                switch (numero)
+                {
+                    case 0:
+                        Console.WriteLine("Resident Evil");
+                        break;
+                    case 1:
+                        Console.WriteLine("Metal Gear Solid");
+                        break;
+                    case 2:
+                        Console.WriteLine("Assassins Creed");
+                        break;
+                    case 3:
+                        Console.WriteLine("Cyberpunk 2077");
+                        break;
+                    default:
+                        Console.WriteLine("The Witcher");
+                        break;
+                }
+            } catch (Exception ex)
+            {
+                Console.WriteLine("No ingresaste ningun numero.");
+            }
+        }
+
+        public void CondicionTernaria()
+        {
+            Console.Write("Ingresa tu edad: ");
+            byte edad = Convert.ToByte(Console.ReadLine());
+
+            Console.WriteLine(edad >= 18 ? "Fierro alv" : "No Fierro alv");
         }
     }
 }
