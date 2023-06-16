@@ -40,12 +40,31 @@
             //condiciones.CondicionTernaria();
 
             // seccion 5
-            Bucles bucles = new Bucles();
+            //Bucles bucles = new Bucles();
             //bucles.BucleFor();
             //bucles.BucleDoWhile();
             //bucles.BucleWhile();
             //bucles.BreakContinue();
-            bucles.DesafioBucles();
+            //bucles.DesafioBucles();
+
+            // seccion 6
+            //HumanoPOO francisco = new HumanoPOO("Francisco", "Coronado", 25, "Programador");
+            //HumanoPOO lupita = new HumanoPOO("Lupita", "Rios", 26, null);
+            //francisco.Saludar();
+            //francisco.Trabajo();
+            //lupita.Saludar();
+            //lupita.Trabajo();
+            //HumanoPOO humano = new HumanoPOO();
+            //humano.ToString();
+            Caja caja = new Caja();
+            caja.largo = 5;
+            caja.alto = 3;
+            caja.ancho = 4;
+            caja.MostrarInfo();
+
+
+
+
 
 
         }
