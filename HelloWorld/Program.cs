@@ -56,15 +56,18 @@
             //lupita.Trabajo();
             //HumanoPOO humano = new HumanoPOO();
             //humano.ToString();
-            Caja caja = new Caja();
-            caja.Largo = 5;
-            Console.WriteLine(caja.Largo);
-            caja.Alto = 10;
-            Console.WriteLine(caja.Alto);
-            caja.Ancho = 5;
-            Console.WriteLine(caja.Ancho);
-            caja.MostrarInfo();
-
+            //Caja caja = new Caja();
+            //caja.Largo = 5;
+            //Console.WriteLine(caja.Largo);
+            //caja.Alto = 10;
+            //Console.WriteLine(caja.Alto);
+            //caja.Ancho = 5;
+            //Console.WriteLine(caja.Ancho);
+            //caja.MostrarInfo();
+            Miembros miembro = new Miembros();
+            miembro.CompartirInfoPublica(true);
+            //Miembros nuevoMiembro = new Miembros();
+            //nuevoMiembro.CompartirInfoPublica(false);
 
 
 
