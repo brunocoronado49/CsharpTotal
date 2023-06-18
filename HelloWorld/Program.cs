@@ -57,9 +57,12 @@
             //HumanoPOO humano = new HumanoPOO();
             //humano.ToString();
             Caja caja = new Caja();
-            caja.largo = 5;
-            caja.alto = 3;
-            caja.ancho = 4;
+            caja.Largo = 5;
+            Console.WriteLine(caja.Largo);
+            caja.Alto = 10;
+            Console.WriteLine(caja.Alto);
+            caja.Ancho = 5;
+            Console.WriteLine(caja.Ancho);
             caja.MostrarInfo();
 
 
