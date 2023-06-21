@@ -64,10 +64,17 @@
             //caja.Ancho = 5;
             //Console.WriteLine(caja.Ancho);
             //caja.MostrarInfo();
-            Miembros miembro = new Miembros();
-            miembro.CompartirInfoPublica(true);
+            //Miembros miembro = new Miembros();
+            //miembro.CompartirInfoPublica(true);
             //Miembros nuevoMiembro = new Miembros();
             //nuevoMiembro.CompartirInfoPublica(false);
+
+            // seccion 7
+            ArraysOne arreglos = new ArraysOne();
+            //arreglos.Arreglos();
+            arreglos.ArrayMultidimencional();
+            arreglos.ArrayTridimencinal();
+
 
 
 
