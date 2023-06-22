@@ -70,12 +70,15 @@
             //nuevoMiembro.CompartirInfoPublica(false);
 
             // seccion 7
-            ArraysOne arreglos = new ArraysOne();
+            //ArraysOne arreglos = new ArraysOne();
             //arreglos.Arreglos();
-            arreglos.ArrayMultidimencional();
-            arreglos.ArrayTridimencinal();
+            //arreglos.ArrayMultidimencional();
+            //arreglos.ArrayTridimencinal();
 
-
+            // seccion 8
+            ArraysTwo arreglos = new ArraysTwo();
+            //arreglos.ArrayIrregular();
+            arreglos.DesafioIrregular();
 
 
 

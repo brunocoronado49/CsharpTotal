@@ -103,7 +103,6 @@ namespace HelloWorld
             Console.WriteLine($"el valor de A es: {array3D[0,0,0]}");
             Console.WriteLine($"el valor de j es: {array3D[1, 0, 0]}");
             Console.WriteLine($"el valor de v es: {array3D[2, 1, 0]}");
-
         }
     }
 }
