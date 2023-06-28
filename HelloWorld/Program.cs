@@ -76,9 +76,17 @@
             //arreglos.ArrayTridimencinal();
 
             // seccion 8
-            ArraysTwo arreglos = new ArraysTwo();
+            //ArraysTwo arreglos = new ArraysTwo();
             //arreglos.ArrayIrregular();
-            arreglos.DesafioIrregular();
+            //arreglos.DesafioIrregular();
+            //int[] calificaciones = new int[] { 6, 7, 8, 8, 9, 10, 10 };
+            //Console.WriteLine(arreglos.SacarPromedio(calificaciones));
+            //int[] cuenta = {561, 6, 93, 23, 54, 34, 30};
+            //arreglos.Cuenta(cuenta);
+            //arreglos.ArrayListas();
+            //arreglos.Listas();
+            ArrayVsArrayListVsList arr = new ArrayVsArrayListVsList();
+            arr.Diferencias();
 
 
 
